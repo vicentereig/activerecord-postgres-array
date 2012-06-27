@@ -50,7 +50,7 @@ module ActiveRecord
       alias_method_chain :quote, :array
     end
 
-    class TableDefinition
+    class Table
       # Adds array type for migrations. So you can add columns to a table like:
       #   create_table :people do |t|
       #     ...
